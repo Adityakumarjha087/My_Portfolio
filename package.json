@@ -1,0 +1,41 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@barba/core": "^2.10.3",
+    "@barba/css": "^2.1.16",
+    "@types/three": "^0.179.0",
+    "animejs": "^3.2.2",
+    "canvas": "^3.2.0",
+    "framer-motion": "^12.23.6",
+    "googleapis": "^157.0.0",
+    "gsap": "^3.13.0",
+    "next": "15.4.2",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-icons": "^5.5.0",
+    "three": "^0.179.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/animejs": "^3.1.13",
+    "@types/gsap": "^1.20.2",
+    "@types/node": "^20.19.9",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19",
+    "critters": "^0.0.23",
+    "eslint": "^9",
+    "eslint-config-next": "15.4.2",
+    "null-loader": "^4.0.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
